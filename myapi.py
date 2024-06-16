@@ -98,3 +98,6 @@ def delete_student(student_id:int):
     del students[student_id]
     return {"Message" : "Student deleted successfully"}
 
+# pydantic -> we use it to validate the data. Python does not have built-in data validation, or static type checking.
+# we can use pydantic to validate the data.
+# we can also use it to convert data to and from JSON. 
